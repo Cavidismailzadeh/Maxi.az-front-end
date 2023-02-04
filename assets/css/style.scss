@@ -1,0 +1,514 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    margin-top: 20px;
+
+    .logo {
+
+        display: flex;
+
+        .list {
+            margin-top: 10px;
+
+            .aksiya {
+                color: red;
+            }
+        }
+    }
+
+
+
+}
+
+.col-9 {
+    img {
+        margin-top: 10px;
+    }
+}
+
+
+.slider-menu {
+    line-height: 26px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-right: 10px;
+
+    ul {
+        margin-top: 13px;
+        padding-left: 15px;
+
+
+        li {
+            list-style: none;
+
+
+            a {
+                font-size: 14px;
+                color: #3C3F42;
+                display: flex;
+                justify-content: space-between;
+                text-decoration: none;
+
+
+
+                i {
+                    font-size: 18px;
+
+                    &:nth-child(3) {
+                        margin-left: 45px;
+                        font-size: 13px;
+                        text-align: end;
+                    }
+
+
+                }
+
+                span {
+                    flex: auto;
+
+                }
+
+                .span1 {
+                    color: #ec2127;
+                }
+
+                img {
+                    margin-bottom: 5px;
+                    width: 20px;
+                    height: 20px;
+                }
+
+
+
+            }
+
+
+
+        }
+
+
+
+    }
+}
+
+.main2 {
+    height: 70px;
+    background-color: rgb(68, 68, 68);
+
+    .col-4-sign {
+
+
+        ul {
+            position: relative;
+            top: 22px;
+            left: 40px;
+            list-style: none;
+            display: flex;
+
+            li {
+                list-style: none;
+            }
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                p {
+                    text-decoration: none;
+
+                }
+
+            }
+
+            .item {
+                padding-left: 15px;
+            }
+
+
+            .item1 {
+                padding-left: 45px;
+            }
+
+            i {
+                font-size: 20px;
+            }
+
+
+        }
+
+
+
+    }
+
+
+    .col-4-catalog {
+        display: flex;
+        height: 70px;
+        width: 305px;
+        background-color: rgb(36, 36, 36);
+
+        i {
+            padding-left: 20px;
+            font-size: 25px;
+            color: white;
+            padding-top: 25px;
+        }
+    }
+
+    .text p {
+        color: white;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 22px;
+    }
+
+    .search {
+        height: 70px;
+        width: 500px;
+    }
+
+    .all-col {
+        display: flex;
+    }
+
+    .col-4-search {
+
+        .search-area {
+            margin-left: 15px;
+            margin-top: 10px;
+            width: 500px;
+            height: 50px;
+        }
+
+        .icon1 {
+            padding: 15px;
+            margin-left: -15px;
+            margin-top: 10px;
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            font-size: 20px;
+            color: black;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+    }
+}
+
+.all-col {
+    display: flex;
+
+    .col-6-left {
+        margin-top: 70px;
+        margin-left: 130px;
+
+        .body1 {
+            height: 150px;
+            padding: 30px;
+            background-color: rgb(236, 236, 236);
+            position: relative;
+
+
+            img {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 150px;
+
+            }
+
+        }
+
+    }
+
+    .col-6-right {
+        margin-right: 140px;
+        margin-top: 70px;
+
+
+        .body1 {
+            height: 150px;
+            padding: 30px;
+            background-color: rgb(236, 236, 236);
+
+
+
+        }
+    }
+}
+
+.new {
+    margin-top: 50px;
+    width: 400px;
+    display: flex;
+    
+    .new1{
+        margin-left: 35px;
+    }
+
+    .new2 {
+        padding-top: 10px;
+        padding-left: 25px;
+
+        a {
+            color: rgb(105, 105, 105);
+        }
+    }
+}
+
+.col-3-card {
+
+    margin-left: 35px;
+
+    img {
+        margin-top: 50px;
+    }
+
+    .news {
+        
+        background-color: green;
+        padding: 7px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .news2 {
+        background-color: rgb(135, 0, 224);
+        padding: 7px;
+        color: white;
+        font-size: 10px;
+
+    }
+
+    .cost {
+        display: flex;
+
+        h2 {
+            padding-top: 20px;
+            font-size: 25px;
+            margin-left: 15px;
+            font-weight: bold;
+
+        }
+
+        i {
+            margin-top: 40px;
+            margin-left: 120px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            color: rgb(255, 0, 0);
+            padding-top: 11px;
+            padding-left: 10px;
+
+
+        }
+    }
+
+    .foot {
+        display: flex;
+        i {
+            margin-top: 40px;
+            margin-left: 15px;
+            color: rgb(255, 102, 0);
+        }
+        p{
+            margin-top: 35px;
+            margin-left: 15px;
+            border-bottom: 1px dotted black;
+        }
+
+    }
+
+
+
+    .news3 {
+        background-color: rgb(247, 255, 240);
+        font-size: 10px;
+        color: rgb(13, 158, 0);
+        padding: 7px;
+        margin-left: 15px;
+        width: 165px;
+        height: 25px;
+    }
+
+    .news4 {
+        background-color: rgb(73, 76, 255);
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+        padding: 7px;
+        margin-left: 15px;
+        margin-top: 10px;
+        width: 75px;
+        height: 25px;
+
+    }
+
+    .text1 {
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 13px;
+
+
+    }
+
+    ul {
+        display: flex;
+        text-decoration: none;
+
+        li {
+            list-style: none;
+            padding-left: 5px;
+
+            a {
+
+                i {
+                    color: rgb(236, 236, 236);
+                }
+            }
+        }
+    }
+
+    a{
+        height: 230px;
+        img{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+
+
+
+
+    .icon {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 200px;
+
+
+        i {
+            font-size: 25px;
+            color: rgb(105, 105, 105);
+            padding-left: 10px;
+
+
+        }
+    }
+}
+
+.all-brand{
+    display: flex;
+
+    .brend1{
+
+        margin-top: 100px;
+        margin-left: 35px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: rgb(231, 231, 231);    
+        
+        img{
+            padding-left: 15px;
+            padding-top: 76px;
+        }
+        
+    }
+
+    .brend2{
+
+        margin-top: 100px;
+        margin-left: 35px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: rgb(231, 231, 231);    
+        
+        img{
+            padding-left: 22px;
+            padding-top: 75px;
+        }
+        
+    }
+
+    .brend3{
+
+        margin-top: 100px;
+        margin-left: 35px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: rgb(231, 231, 231);    
+        
+        img{
+            padding-left: 22px;
+            padding-top: 75px;
+        }
+        
+    }
+
+    .brend4{
+
+        margin-top: 100px;
+        margin-left: 35px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: rgb(231, 231, 231);    
+        
+        img{
+            padding-left: 15px;
+            padding-top: 76px;
+        }
+        
+    }
+
+    .brend5{
+
+        margin-top: 100px;
+        margin-left: 35px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: rgb(231, 231, 231);    
+        
+        img{
+            padding-left: 5px;
+            padding-top: 75px;
+        }
+        
+    }
+
+    .brend6{
+
+        margin-top: 100px;
+        margin-left: 35px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: rgb(231, 231, 231);   
+      
+        a{
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+            list-style: none;
+        }
+        
+        p{
+            padding-left: 15px;
+            padding-top: 85px;
+           
+        }
+    }
+
+
+}
+
