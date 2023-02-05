@@ -102,7 +102,7 @@
   color: white;
   padding-top: 25px;
 }
-.main2 .text p {
+.main2 .text-12 p {
   color: white;
   font-size: 20px;
   padding-left: 10px;
@@ -364,4 +364,320 @@
 .all-brand .brend6 p {
   padding-left: 15px;
   padding-top: 85px;
+}
+
+.maxi-secim {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: 50px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+}
+.maxi-secim .maxi {
+  font-weight: bold;
+  font-size: 45px;
+  color: #ec2127;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+.maxi-secim .secimi {
+  font-weight: bold;
+  font-size: 45px;
+  color: #0011ff;
+  position: relative;
+  top: 40px;
+  left: 40px;
+  padding-left: 10px;
+}
+.maxi-secim img {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  left: 870px;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.title ul {
+  width: 350px;
+  position: relative;
+  top: 120px;
+  left: 80px;
+}
+.title ul li {
+  padding-top: 10px;
+  color: white;
+}
+.title .clock {
+  position: relative;
+  top: 30px;
+  width: 250px;
+  height: 80px;
+  background-color: rgb(255, 230, 0);
+  border-radius: 20px;
+}
+.title .clock p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+.title-picture {
+  display: flex;
+}
+.title-picture .picture {
+  position: relative;
+  top: 140px;
+  left: 250px;
+  width: 600px;
+  height: 270px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.title-picture .picture img {
+  height: 230px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.text .sifaris {
+  overflow-x: hidden;
+  top: 160px;
+  left: -110px;
+  width: 120px;
+  height: 50px;
+  background-color: #ec2127;
+  border-radius: 10px;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 12px;
+  cursor: pointer;
+}
+.text span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ec2127;
+  position: relative;
+  top: 140px;
+  left: -110px;
+}
+.text p {
+  width: 330px;
+  position: relative;
+  top: 160px;
+  left: -110px;
+  font-weight: bold;
+}
+.text ul {
+  position: relative;
+  left: -150px;
+  top: 140px;
+  display: flex;
+  list-style: none;
+}
+.text ul li i {
+  color: #a0a0a0;
+  padding-left: 5px;
+}
+
+.title-1 {
+  background-color: rgb(251, 230, 155);
+  padding: 7px;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+}
+
+.title-2 {
+  position: relative;
+  top: 10px;
+  font-weight: bold;
+}
+
+.title-3 {
+  font-size: 13px;
+  color: #a0a0a0;
+  position: relative;
+  top: 5px;
+  left: 160px;
+}
+
+.titles {
+  display: flex;
+}
+
+.cards {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.footer-widget__subscribe img[data-v-9ece32e4] {
+  width: 55px;
+  height: 55px;
+}
+
+.footer-widget__subscribe[data-v-9ece32e4] {
+  position: fixed;
+  bottom: 7%;
+  right: 5%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.manat {
+  overflow-x: hidden;
+  width: 99%;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  top: 150px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.manat .m10 {
+  font-size: 50px;
+  color: #f70000;
+  font-weight: bold;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+.manat .manat1 {
+  font-size: 35px;
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  padding-left: 10px;
+}
+.manat .hediyye {
+  font-size: 35px;
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+  left: -168px;
+}
+.manat .bildiris {
+  width: 100px;
+  font-size: 15px;
+  color: #000000;
+  position: relative;
+  top: 40px;
+  left: -100px;
+}
+.manat .name1 {
+  width: 250px;
+  height: 50px;
+  position: relative;
+  top: 45px;
+  left: 389px;
+}
+.manat .name2 {
+  width: 250px;
+  height: 50px;
+  position: relative;
+  top: 45px;
+  left: 419px;
+}
+.manat .flex {
+  display: flex;
+}
+.manat .name3 {
+  position: relative;
+  top: 45px;
+  left: 389px;
+}
+.manat .abune-ol {
+  top: -46px;
+  left: 967px;
+  width: 300px;
+  height: 50px;
+  background-color: #ec2127;
+  border-radius: 10px;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+.all-footur {
+  display: flex;
+}
+
+.footer {
+  overflow: hidden;
+  position: relative;
+  top: 300px;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(41, 41, 41);
+}
+.footer .contact1 {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.footer .zeng-et {
+  width: 260px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: 60px;
+  left: 60px;
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+}
+.footer ul i {
+  font-size: 40px;
+  padding-left: 35px;
+  color: #ffffff;
+  position: relative;
+  top: 70px;
+}
+
+.footur1 {
+  color: #ffffff;
+  font-size: 15px;
+  position: relative;
+  top: -130px;
+  left: 300px;
+}
+
+.footur2 {
+  color: #ffffff;
+  font-size: 15px;
+  position: relative;
+  top: -130px;
+  left: 200px;
+}
+
+.footur3 {
+  color: #ffffff;
+  font-size: 15px;
+  position: relative;
+  top: -130px;
+  left: 100px;
 }/*# sourceMappingURL=style.css.map */
